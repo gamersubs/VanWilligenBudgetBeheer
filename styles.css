@@ -108,3 +108,12 @@ img {
 html {
   scroll-behavior: smooth;
 }
+
+table {
+  width: 100%;
+  background-color: 0 255 0 1;
+}
+
+td {
+  align-content: center;
+}
