@@ -60,7 +60,30 @@
     </table>
   </section>
   <section id="section2" style="height: 100vh; background-color: #d4edda;">Section 2</section>
-  <section id="section3" style="height: 100vh; background-color: #d1ecf1;">Contact Formulier</section>
+  <section id="section3" style="height: 100vh; background-color: #d1ecf1;">
+    Contact Formulier<br>
+    <br>
+    <br>
+    <div class="container">
+      <form action="action_page.php">
+
+         <label for="fname">Volledige Naam</label>
+         <input type="text" id="fname" name="fullname" placeholder="Naam">
+
+         <label for="lname">Telefoon Nummer</label>
+         <input type="text" id="telnr" name="telnr" placeholder="Tel. Nr.">
+
+         <label for="country">e-mailadres</label>
+         <input type="text" id="email" name="e-mail" placeholder="E-Mail">
+
+         <label for="subject">Onderwerp van belangstelling</label>
+         <textarea id="subject" name="subject" placeholder="Stel uw vraag..." style="height:200px"></textarea>
+
+        <input type="submit" value="Verstuur">
+     
+      </form>
+    </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
