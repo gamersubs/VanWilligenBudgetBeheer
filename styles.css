@@ -111,7 +111,7 @@ html {
 
 table {
   width: 100%;
-  background-color: 0 255 0 1;
+  background-color: #d4edda;
 }
 
 td {
@@ -150,23 +150,30 @@ input[type=submit]:hover {
   width: 75%;
   margin-left: 12.5%;
 }
+#section2 {
+  background-color: rgb(255, 255, 145);
+}
 div.scrollmenu {
-  background-color: #333;
+  background-color: rgb(255, 255, 145);
   overflow: auto;
   white-space: nowrap;
 }
 
 div.scrollmenu a {
+  background-color: yellow;
+  border-radius: 30px;
   display: inline-block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px;
+  margin: 10px;
   text-decoration: none;
 }
-
 div.scrollmenu a:hover {
-  background-color: #777;
+  margin: 0px;
+  font-size: xx-large;
 }
+
 ul {
   list-style-type: none;
 }
