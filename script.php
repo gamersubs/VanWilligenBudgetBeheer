@@ -1,2 +1,5 @@
-<form method="post"
-action="mailto:van.willigen.budgetbeheer@outlook.com"
+<?php
+    $data = $_POST;
+
+    print($data);
+?>
