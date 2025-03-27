@@ -151,10 +151,10 @@ input[type=submit]:hover {
   margin-left: 12.5%;
 }
 #section2 {
-  background-color: rgb(255, 255, 145);
+  background-color: rgb(255, 255, 200);
 }
 div.scrollmenu {
-  background-color: rgb(255, 255, 145);
+  background-color: rgb(255, 255, 200);
   overflow: auto;
   white-space: nowrap;
 }
