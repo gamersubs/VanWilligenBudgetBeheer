@@ -167,3 +167,14 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #777;
 }
+ul {
+  list-style-type: none;
+}
+.block {
+  width: 300px;
+  text-wrap: auto;
+  vertical-align: top;
+}
+.lijsten {
+  vertical-align: top;
+}
