@@ -146,6 +146,7 @@ input[type=submit]:hover {
   padding-top: 40px;
   width: 40%;
   margin: 0px auto;
+  margin-left: 20px;
 }
 
 textarea {
