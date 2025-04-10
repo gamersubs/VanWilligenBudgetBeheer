@@ -205,7 +205,7 @@ ul {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: white; /* Set a background color */
+  background-color: rgba(255, 255, 255, 0.5); /* Set a background color */
   color: black; /* Text color */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
@@ -213,7 +213,7 @@ ul {
 }
 
 #top:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #55555580; /* Add a dark-grey background on hover */
   cursor: pointer; /* Add a mouse pointer on hover */
 }
 footer {
